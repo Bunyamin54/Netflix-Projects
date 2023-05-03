@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+h1 {
+  text-align: center;
+  color: rgba(229, 9, 20, 1);
+  cursor: pointer;
+}
