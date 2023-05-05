@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+body{
+  /* background-image: url(../img/background_image.jpg); */
+}
+
 #container {
   width: 1240px;
   height: 1036px;
