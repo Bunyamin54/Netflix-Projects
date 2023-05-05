@@ -57,3 +57,13 @@ span {
 .input-box {
   margin-top: 20px;
 }
+
+#checkboz,
+#radio {
+  margin-top: 40px;
+}
+
+#feedback {
+  resize: none;
+  /* kullanici ekrani degistiremez resize nonoe propertisi ile */
+}
