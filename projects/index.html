@@ -61,10 +61,28 @@
             <label for="Content Type">Content Type</label><br />
             <select name="content" id="dropdown">
               <option value="movies">Movies</option>
-              <option value="series">Series</option>
+              <option value="series" selected>Series</option>
               <option value="tv-shows">Tv-Shows</option>
             </select>
           </div>
+          <div class="input-box" id="checkbox">
+            <label for="">Movie Type</label><br />
+
+            <input type="checkbox" name="movie1" id="first-check" />
+            <label for="first-check">Comedy</label>
+            <br />
+            <input type="checkbox" name="movie2" id="second-check" />
+            <label for="second-check">Action</label>
+            <br />
+            <input type="checkbox" name="movie3" id="third-check" />
+            <label for="third-check">Romance</label>
+          </div>
+
+          <div class="input-box" id="radio"></div>
+          <label for="">Gender</label> <br />
+          <input type="radio" name="gender" id="first-radio" value="Male" />
+          <label for="first-check"></label>
+
           <div class="form-submit">
             <button id="form-button">Send</button>
           </div>
