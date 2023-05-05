@@ -1,14 +1,16 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-body{
+body {
   /* background-image: url(../img/background_image.jpg); */
 }
 
 #container {
   width: 1240px;
   height: 1036px;
-  background-color: rgba(0, 0, 0, 0.3
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: auto;
+  margin-top: 30px;
 }
